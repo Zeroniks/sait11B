@@ -1,4 +1,4 @@
- var message="Привет Диман!";
+ var message="Лучший 11 'Б' класс!";
     var neonbasecolor="#000000";
     var neontextcolor="red";
     var neontextcolor2="#ffffff";
