@@ -1,14 +1,14 @@
  var message="Лучший 11 'Б' класс!";
-    var neonbasecolor="#000000";
+    var neonbasecolor="#8B00FF";
     var neontextcolor="red";
     var neontextcolor2="#ffffff";
-    var flashspeed=500;
-    var flashingletters=7;
-    var flashingletters2=6;
-    var flashpause=1000;
+    var flashspeed=150;
+    var flashingletters=10;
+    var flashingletters2=10;
+    var flashpause=2000;
     var n=0;
     if (document.all||document.getElementById){
-        document.write('<font color="'+neonbasecolor+'" size=+2>')
+        document.write('<font color="'+neonbasecolor+'" size=+10>')
           for (m=0;m<message.length;m++)
     	     document.write('<span id="neonlight'+m+'">'+message.charAt(m)+'</span>')
            document.write('</font>')
